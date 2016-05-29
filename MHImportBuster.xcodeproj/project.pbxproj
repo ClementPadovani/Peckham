@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D63FE4FF2BB4BD8A5050BF9 /* libPods-MHImportBuster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC86188A4B074F55AA6C93E6 /* libPods-MHImportBuster.a */; };
+		5903E4D11CFA65700010361E /* NSString+Score.h in Headers */ = {isa = PBXBuildFile; fileRef = 5903E4CF1CFA65700010361E /* NSString+Score.h */; };
+		5903E4D21CFA65700010361E /* NSString+Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903E4D01CFA65700010361E /* NSString+Score.m */; };
 		59323EC21C9ED2DB009F5FDA /* NSStringFilesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59323EC11C9ED2DB009F5FDA /* NSStringFilesSpec.m */; };
 		59B693031CD3EC7700C67B34 /* NSString+FuzzySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B693021CD3EC7700C67B34 /* NSString+FuzzySearchSpec.m */; };
 		59E3C9021CD3E94700DD68A3 /* NSString+FuzzySearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E3C9001CD3E94700DD68A3 /* NSString+FuzzySearch.h */; };
@@ -225,6 +227,8 @@
 		1E6C46054B3049289C35CE1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C3352BDD35D0A6C792BE45 /* Pods-MHImportBuster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHImportBuster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHImportBuster/Pods-MHImportBuster.debug.xcconfig"; sourceTree = "<group>"; };
 		50CE69C5567A407486A7155C /* libPods-MHImportBusterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHImportBusterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5903E4CF1CFA65700010361E /* NSString+Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Score.h"; sourceTree = "<group>"; };
+		5903E4D01CFA65700010361E /* NSString+Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Score.m"; sourceTree = "<group>"; };
 		59323EC01C9ECE5E009F5FDA /* dont—import—me.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dont—import—me.h"; sourceTree = "<group>"; };
 		59323EC11C9ED2DB009F5FDA /* NSStringFilesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringFilesSpec.m; path = Categories/NSStringFilesSpec.m; sourceTree = "<group>"; };
 		59B693021CD3EC7700C67B34 /* NSString+FuzzySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FuzzySearchSpec.m"; sourceTree = "<group>"; };
@@ -761,6 +765,8 @@
 				96E2491F1CD76F9E00C0BA69 /* NSString+CamelCase.m */,
 				96B7D59E1CD793AC00687083 /* NSArray+MHSourceFileSorting.h */,
 				96B7D59F1CD793AC00687083 /* NSArray+MHSourceFileSorting.m */,
+				5903E4CF1CFA65700010361E /* NSString+Score.h */,
+				5903E4D01CFA65700010361E /* NSString+Score.m */,
 			);
 			name = Foundation;
 			sourceTree = "<group>";
@@ -1062,6 +1068,7 @@
 				AD6A20031876B68D00E4137F /* NSMutableIndexSet+NSArray.h in Headers */,
 				AD6A200D1876B68D00E4137F /* MHImportStatement.h in Headers */,
 				96589FAE18FDDD6800654F2B /* NSArray+MHStatement.h in Headers */,
+				5903E4D11CFA65700010361E /* NSString+Score.h in Headers */,
 				96C1BF321928BF2E007A4699 /* MHImportStatement+Construction.h in Headers */,
 				9699F6FB18954F7400AC7432 /* MHDocumentObserver.h in Headers */,
 				963282E018F971090007699A /* MHPropertyQualifierStatement.h in Headers */,
@@ -1465,6 +1472,7 @@
 				AD6A20161876B68D00E4137F /* MHStatementParser.m in Sources */,
 				AD6A200E1876B68D00E4137F /* MHImportStatement.m in Sources */,
 				964B3F88194910A300B079BD /* MHSearchArrayOperation.m in Sources */,
+				5903E4D21CFA65700010361E /* NSString+Score.m in Sources */,
 				961C7DD3191F6F9000031FAD /* XCTarget+XCProject.m in Sources */,
 				9649770219711794006EF60A /* MHSourceFileSearchController.m in Sources */,
 				964B3F841949100C00B079BD /* MHOperation.m in Sources */,
